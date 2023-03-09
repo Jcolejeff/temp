@@ -1,0 +1,278 @@
+  .about-bg-container {
+    padding: 0 5em;
+  }
+
+  .about-bg-container .about-container .about-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .about-bg-container .about-container .about-cards {
+      display: flex;
+      justify-content: space-between;
+      line-height: 2em;
+      margin: .9em;
+    }
+    .about-bg-container .about-container .about-cards .about-cards-item{
+      margin-bottom: 3em;
+    }
+  }
+
+  .about-bg-container .about-container .about-summary {
+    width: 40%;
+    text-align: left;
+    margin-bottom: 4em;
+  }
+
+  .about-bg-container .about-container .about-summary h2 {
+    position: relative;
+    padding-top: 4em;
+    margin-bottom: 1em;
+    font-size: 24px;
+  }
+
+  .about-bg-container .about-container .about-summary h2::before {
+    content: "";
+    height: 8px;
+    position: absolute;
+    left: 0;
+    background: #0F5CA8;
+    display: block;
+    margin: -1em auto;
+    width: 109px;
+  }
+
+  .about-bg-container .how-it-works .heading {
+    position: relative;
+    padding-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .about-bg-container .how-it-works .heading::before {
+    content: "";
+    height: 8px;
+    position: absolute;
+    left: 0;
+    background: #0F5CA8;
+    display: block;
+    margin: -1em auto;
+    width: 109px;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 2em;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container .crypt-image {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container .crypt-image img {
+    width: 250px;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container .cryp-deposit-content {
+    width: 50%;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container ul .last {
+    margin-bottom: 2em;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container ul li {
+    padding-bottom: 1em;
+    display: flex;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container ul li span {
+    margin-left: 1em;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container h2 {
+    font-size: 24px;
+  }
+
+  .about-bg-container .how-it-works .cryp-deposit-container h2,
+  .about-bg-container .how-it-works .cryp-deposit-container p {
+    padding-bottom: 1em;
+  }
+
+  .cryp-acct-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2em;
+    background: #FEF3EE;
+    border-radius: 10px;
+    margin: 2em 0 6em 0;
+  }
+
+  .cryp-acct-container .cryp-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+  }
+
+  .cryp-acct-container .cryp-content p {
+    margin: 2em 0;
+  }
+
+  .cryp-acct-container .ellipse-container {
+    position: relative;
+  }
+
+  .cryp-acct-container .ellipse-container .ellipse {
+    position: relative;
+    padding: 2em;
+  }
+
+  .cryp-acct-container .ellipse-container .sv {
+    position: absolute;
+    z-index: 1000000000;
+  }
+
+  .cryp-acct-container .ellipse-container .sv1 {
+    top: 120px;
+    left: 10px;
+  }
+
+  .cryp-acct-container .ellipse-container .sv2 {
+    top: 45px;
+    left: 60px;
+    background: linear-gradient(180deg, #F9AA4B -0.02%, #F7931A 99.99%);
+    padding: 0.8em 1em;
+    border-radius: 50%;
+  }
+
+  .cryp-acct-container .ellipse-container .sv3 {
+    right: 60px;
+    top: 60px;
+    background-color: #3FB143;
+    padding: 1em;
+    border-radius: 50%;
+  }
+
+  .cryp-acct-container .ellipse-container .sv4 {
+    right: 20px;
+    bottom: 150px;
+  }
+
+  .cryp-acct-container .ellipse-container .sv5 {
+    bottom: 10px;
+    left: 170px;
+  }
+
+  @media (max-width: 750px) and (max-width: 1000px) {
+    .about-bg-container {
+      padding: 0 2em;
+    }
+
+    .about-bg-container .about-container .about-cards {
+      flex-direction: column;
+      margin-bottom: 2em;
+    }
+
+    .about-bg-container .about-container .about-summary {
+      width: 100%;
+    }
+
+    .about-bg-container .cryp-acct-container {
+      flex-direction: column;
+      margin: 2em 0 3em 0;
+    }
+
+    .about-bg-container .cryp-acct-container .cryp-content {
+      width: 100%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container {
+      width: 100%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .ellipse {
+      width: 80%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .sv {
+      width: 10%;
+      font-size: 16px;
+      padding: 0.4em;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .sv1 {
+      width: 60%;
+      top: 26.5%;
+      left: 0%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .sv2 {
+      top: 15.5%;
+      left: 17.5%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .sv3 {
+      right: 35.5%;
+      top: 23.5%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .sv4 {
+      right: 27.5%;
+      top: 52.5%;
+      width: 15%;
+    }
+
+    .about-bg-container .cryp-acct-container .ellipse-container .sv5 {
+      bottom: 13.5%;
+      left: 32.5%;
+    }
+
+    .about-bg-container .how-it-works .cryp-deposit-container {
+      flex-direction: column;
+    }
+
+    .about-bg-container .how-it-works .cryp-deposit-container .crypt-image {
+      margin-top: 1.5em;
+    }
+
+    .about-bg-container .how-it-works .cryp-deposit-container .crypt-image img {
+      width: 80vw;
+    }
+
+    .about-bg-container .how-it-works .cryp-deposit-container .cryp-deposit-content {
+      width: 100%;
+    }
+  }
+
+
+  .coming-soon {
+    display: flex;
+    width: auto;
+    background: #0F5CA8;
+    border-radius: 20px;
+    border: none;
+    padding: 9px;
+    color: white;
+    font-family: Cera Pro;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  /*# sourceMappingURL=About.css.map */

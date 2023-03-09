@@ -1,0 +1,176 @@
+.intro-main-container {
+  background-image: url("../../public/images/background.svg");
+  background-position: top 2em right 0;
+  background-repeat: no-repeat;
+  background-size: 100vw 850px;
+}
+
+.intro-main-container .IntroPage-Container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  padding: 10em 10em 4em 10em;
+  position: relative;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .one img {
+  position: relative;
+  width: 113px;
+}
+
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .one {
+  max-width: 113;
+  -webkit-filter: drop-shadow(-35px -11px 93px rgba(57, 179, 196, 0.76));
+  filter: drop-shadow(-35px -11px 63px rgba(57, 179, 196, 0.76));
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .email-form .email {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 1em;
+  border: 1px solid black;
+  outline: none;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content p {
+  margin: 1em auto;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .ol {
+  position: absolute;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .one {
+  left: 0;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .two {
+  top: 0;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .three {
+  right: 0;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content h1 .txt1 {
+  background: -webkit-linear-gradient(left, #89b1e9, #0F5CA8, #0F5CA8);
+  font-family: Cera Pro;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content h1 .txt2 {
+  font-family: Cera Pro;
+  color: #0F5CA8;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 2em;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul .icon {
+  margin-top: 0.5em;
+  margin-right: 0.2em;
+}
+
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1em;
+}
+
+@media (max-width: 700px) {
+  .intro-main-container {
+    background-position: top -15em right 0;
+    background-repeat: no-repeat;
+    background-size: cover 850px;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content {
+    width: 100%;
+    padding: 5em 5em 2em 5.4em;
+    position: relative;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content img {
+    max-width: 70px;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .one img {
+    max-width: 70px;
+    -webkit-filter: drop-shadow(-35px -11px 93px rgba(57, 179, 196, 0.76));
+    filter: drop-shadow(-35px -11px 63px rgba(57, 179, 196, 0.76));
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content h1 {
+    font-size: 1.4em;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content p {
+    font-size: 0.75em;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul {
+    margin-bottom: 2em;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul li {
+    font-size: 10px;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .email-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content .email-form .email {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .middle-section-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 18em;
+    height: 2.7em;
+    margin-top: -0.4em;
+    outline: none;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+/*# sourceMappingURL=IntroPage.css.map */

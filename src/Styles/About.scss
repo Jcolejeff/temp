@@ -1,0 +1,276 @@
+@import 'variables';
+
+
+.about-bg-container{
+ padding: 0 5em;
+.about-container{
+    .about-cards{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4em;
+
+    }
+
+    .about-summary{
+        width: 40%;
+        text-align: left;
+        margin-bottom: 4em;
+        
+
+        h2{
+            position: relative;
+            padding-top: 4em;
+            margin-bottom: 1em;
+            font-size: 24px;
+            &::before{
+        content: "";
+        height: 8px;
+        position: absolute;
+        left: 0;
+        background: #0F5CA8;
+
+        display: block;
+        margin: -1em auto;
+        width: 109px;
+        }
+    }
+}
+}
+
+.how-it-works{
+    .heading{
+        position: relative;
+        padding-top: 2em;
+        margin-bottom: 1em;
+        &::before{
+    content: "";
+    height: 8px;
+    position: absolute;
+    left: 0;
+    background: #0F5CA8;
+
+    display: block;
+    margin: -1em auto;
+    width: 109px;
+    }
+
+    
+}
+
+.cryp-deposit-container{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 2em;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+
+    .crypt-image{
+        display: flex;
+        flex-basis: 40%;
+        justify-content: center;
+        align-items: center;
+
+
+        img{
+            width: 250px;
+        }
+
+    }
+
+    .cryp-deposit-content{
+        width: 50%;
+    }
+
+    
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        
+        .last{
+            margin-bottom: 2em;
+        }
+
+        
+        li{
+            padding-bottom: 1em;
+            display: flex;
+            
+            span{
+                margin-left: 1em;
+            }
+        }
+    }
+    h2{
+        font-size: 24px;
+    }
+    h2, p{
+        padding-bottom: 1em;
+    }
+  }
+
+  
+  }
+ }
+
+ .cryp-acct-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2em;
+    background: #FEF3EE;
+    border-radius: 10px;
+    margin: 2em 0 6em 0;
+
+        .cryp-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 35%;
+
+            p{
+                margin: 2em 0;
+            }
+            
+        }
+
+        
+  .ellipse-container{
+    position: relative;
+
+
+    .ellipse{
+        position: relative;
+        padding: 2em;
+    }
+
+    .sv{
+        position: absolute;
+        z-index: 1000000000;
+    }
+
+    .sv1{
+        top: 120px;
+        left: 10px;
+
+    }
+
+    .sv2{
+        top: 45px;
+        left: 60px;
+        background: linear-gradient(180deg, #F9AA4B -0.02%, #F7931A 99.99%);
+        padding: 0.8em 1em;
+        border-radius: 50%;
+
+    }
+    .sv3{
+        right: 60px;
+        top: 60px;
+        background-color:  #3FB143;
+        padding: 1em;
+        border-radius: 50%;
+    }
+    .sv4{
+        right: 20px;
+        bottom: 150px;
+    }
+    .sv5{
+        bottom: 10px;
+        left: 170px;
+    }
+ }
+}
+
+
+@media (max-width:750px){
+    .about-bg-container{
+        padding: 0 2em;
+        .about-container{
+            .about-cards{
+                flex-direction: column;
+                margin-bottom: 2em;
+        
+            }
+
+            .about-summary{
+                width: 100%;
+            }
+        }
+
+        .cryp-acct-container{
+            flex-direction: column;
+            margin: 2em 0 3em 0;
+
+            .cryp-content{
+                width: 100%;
+            }
+
+
+        .ellipse-container{
+            width:100%;
+
+            .ellipse{
+                width: 80%; 
+            }
+           
+
+            .sv{
+                width: 10%;
+                font-size: 16px;
+                padding: 0.4em;
+            }
+
+            .sv1{
+                width: 60%; 
+                top: 26.5%;
+                left: 0%;
+            }
+
+            .sv2{
+                top: 15.5%;
+                left: 17.5%;
+            }
+
+            .sv3{
+                right: 35.5%;
+                top: 23.5%;
+            }
+
+            .sv4{
+                right: 27.5%;
+                top: 52.5%; 
+                width: 15%;
+            }
+
+            .sv5{
+                bottom: 13.5%;
+                left: 32.5%;
+
+            }
+        }
+         
+        } 
+
+        
+       .how-it-works{ 
+        .cryp-deposit-container{
+            flex-direction: column;
+
+            .crypt-image{
+                margin-top: 1.5em;
+
+                img{
+                    width: 80vw;
+                }
+        
+            }
+            .cryp-deposit-content{
+                width: 100%;
+            }
+        }
+    }
+       
+ }
+}

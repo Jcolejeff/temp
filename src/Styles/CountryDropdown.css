@@ -1,0 +1,14 @@
+.select-country select {
+    vertical-align: middle;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url(/public/images/auth//arrowhead-down-solid-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 3px) center;
+    background-size: 25px;
+}
+
+/* select {
+    background-image: url(/public/images/auth//arrowhead-down-solid-svgrepo-com.svg);
+} */

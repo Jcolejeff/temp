@@ -1,0 +1,150 @@
+@import 'variables';
+
+.intro-main-container{
+    background-image: url("../../public/images/background.svg");
+    background-position: top 2em right 0;
+    background-repeat: no-repeat;
+    background-size: 100vw 850px;
+.IntroPage-Container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+
+    .Intro-Content-Container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Intro-Content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            padding: 10em 10em 4em 10em;
+            position: relative;
+
+            .email-form{
+                .email{
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    margin-right: 1em;
+                    border: 1px solid black;
+                    outline: none;
+                }
+            }
+
+            p{
+                margin: 1em auto;
+            }
+            
+            .ol{
+                position: absolute;
+            }
+        
+            .one{
+                left: 0
+            }
+
+            .two{
+                top: 0;
+            }
+
+            .three{
+                right: 0;
+            }
+
+            h1{
+                .txt1{
+                    background: -webkit-linear-gradient(left,#89b1e9, $primary-blue, $primary-blue);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                .txt2{
+                    color: $primary-blue;
+                }
+            }
+
+            ul{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 12px;
+                margin-bottom: 2em;
+
+                .icon{
+                    margin-top: 0.5em;
+                    margin-right: 0.2em;
+                }
+
+                li{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+}
+}
+
+@media (max-width:700px){
+    
+    .intro-main-container{
+        background-position: top -15em right 0;
+        background-repeat: no-repeat;
+        background-size: cover 850px;
+    .IntroPage-Container{
+        .Intro-Content-Container{
+            .Intro-Content{
+            width: 100%;
+            padding: 4em 4em 2em 4em;
+            position: relative;
+
+            img{
+                max-width: 70px;
+            }
+
+            // .ol, .one, .two, .three{
+            //    width: 2px;
+            // }
+
+            h1{
+                font-size: 1.4em;
+            }
+
+            p{
+                font-size: 0.75em;
+            }
+
+            ul{
+                margin-bottom: 2em;
+
+                li{
+                    font-size: 10px;
+                }
+            }
+
+            .email-form{
+                display: flex;
+                flex-direction: column;
+
+                .email{
+                margin-right: 0;
+                margin-bottom: 1em;
+                }
+            }
+            }
+        }
+    }
+ }
+}

@@ -1,0 +1,62 @@
+.join_form-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("../../public/images/formbg.svg");
+  background-size: cover 100vh;
+  padding: 2em;
+  background-position: top 0 right 0;
+}
+.join_form-container .join_form {
+  display: flex;
+  flex-direction: column;
+  -o-object-fit: cover;
+     object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+.join_form-container .join_form .alert {
+  font-size: 12px;
+  font-weight: 900;
+  font-style: italic;
+}
+.join_form-container .join_form .success {
+  color: green;
+}
+.join_form-container .join_form .error {
+  color: red;
+}
+.join_form-container .join_form .sending {
+  color: #0F5CA8;
+}
+.join_form-container .join_form h3 {
+  margin: 3em 0 2em 0;
+  font-size: 24px;
+}
+.join_form-container .join_form input {
+  padding: 0.7em;
+  border-radius: 5px;
+  border: 1px solid rgba(89, 89, 89, 0.5019607843);
+  outline: none;
+  width: 100%;
+}
+.join_form-container .join_form .submit {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #0F5CA8;
+  color: white;
+  cursor: pointer;
+}
+.join_form-container .join_form .join_field-container .name_field-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+.join_form-container .join_form .join_field-container .name_field-container .f-name {
+  margin-right: 1.5em;
+}
+.join_form-container .join_form .join_field-container .email {
+  margin: 1.5em 0;
+}/*# sourceMappingURL=Join.css.map */
